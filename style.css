@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.mainheader{
+    background-color: #34373E;
+    height: 600px;
+    max-width: 1400px;
+    position: relative;
+
+}
+.headermenu{
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.cashify{
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 2.16px;
+    padding-left: 7%;
+    padding-top: 3%; 
+    cursor: pointer;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    gap: 48px;
+    padding-top: 3%; 
+    cursor: pointer;
+}
+
+.h1{
+font-size: 40px;
+color: #FFFFFF;
+padding-left: 7%;
+padding-right: 60%;
+padding-top: 92px;
+}
+
+.p1{
+font-size: 18px;
+color: #FFFFFF;
+padding-left: 7%;
+padding-top: 23px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 7%;
+    padding-top: 29px;
+
+}
+.join{
+    border-radius: 32px;
+    background-color: #D84B4B;
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.demo{
+    border-radius: 32px;
+    background-color:#6A8BD6;
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Phone1{
+    position:absolute;
+    padding-top: 46px;
+    padding-left: 480px;
+    width: 50%;
+    height: 70%;
+}
+
+.container{
+    display: flex;
+    
+    max-width: 1400px;
+}
+.Bigbox{
+    width: 100%;
+    padding-top: 3%;
+}
+
+.titles2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.smalltitle{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.three1{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+
+
+}
+.img1{
+    max-height:25px;
+    max-width: 25px;
+}
+
+.par{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.par2{
+    opacity: 60%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: -13px;
+}
+
+.box3{
+    max-width: 1400px;
+    padding-top: 3%;
+}
+
+.headers{
+    width: 100%;
+
+}
+
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.titl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.titl3{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.dollar{
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 232px;
+width: auto;
+height: 340px;
+box-shadow: 0px 6px 6px #0000003C;
+border-radius: 2px;
+border: 1px solid #DDDDDD;
+}
+.dollar:hover .chose1{
+    background-color: #6A8BD6;
+}
+
+.chose1{
+    border-radius: 2px 2px 0px 0px;
+    background: transparent linear-gradient(2deg, #F7F7F7 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    color: #34373E;
+    height: 64px;
+    max-width: 232px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #DDDDDD;
+}
+.chose3{
+    border-radius: 2px 2px 0px 0px;
+    background: transparent linear-gradient(2deg, #F7F7F7 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    color: #34373E;
+    height: 64px;
+    max-width: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #DDDDDD;
+}
+
+.chose2{
+    font-size:15px; 
+    letter-spacing: 0;
+    color: #34373E;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.spann{
+    font-size:13px;
+}
+
+.AD{
+font-size: 40px;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+color: #34373E;
+}
+
+.Pay1{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D84B4B 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    max-width: 120px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 22%;
+    cursor: pointer;
+}
+
+.line2{
+    border-bottom: 2px dashed grey;
+    height:1px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 5%;
+    opacity:10%
+}
+
+.lastbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 940px;
+    gap: 14%;
+    padding-left: 15%;
+    padding-top: 9%;
+    height: 480px;
+
+}
+.formtext{
+max-width:370px;
+}
+.H7{
+    color: #34373E;
+    font-size: 38px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0px;
+    }
+    .p7{
+        color:#6C7280;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 0px;
+    }
+    
+    .p8{
+    color: #6C7280;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    }
+
+.form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 410px;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+border: 1px solid #DDDDDD;
+border-radius: 2px;
+height: 480px;
+align-items: center;
+padding: 6%;
+}
+.form10{
+    width: 330px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #9DA5B7;
+    opacity: 1;
+    padding-left: 4%;
+}
+
+.form11{
+    width: 330px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px; 
+    font-size: 14px;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #9DA5B7;
+    padding-left: 4%;
+}
+
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 60px;
+    background: #6A8BD6 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+
+}
+
+.footer{
+max-width: 1400px;
+height: 167px;
+background-color: #D84B4B;
+margin-top: 10%;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+
+}
+.cash{
+    font-size: 27px;
+    color: #FFFFFF;
+    font-family: 'Asap', sans-serif;
+
+}
+.menuu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:80px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.dollar:hover{
+    background-color:#ffffffd5;
+}
+
+.dollar:hover .chose1{
+background: linear-gradient(1deg, rgba(106,139,214,1) 0%, rgba(132,165,242,1) 100%);
+color:#ffffff;
+/* height: 79px; */
+cursor: pointer;
+}
+
+.dollar:hover .chose3{
+    background: linear-gradient(1deg, rgba(106,139,214,1) 0%, rgba(132,165,242,1) 100%); 
+    color:#ffffff;
+    /* height: 79px; */
+    cursor: pointer;
+}
+.message:hover{
+    background: linear-gradient(1deg, rgba(106,139,214,1) 0%, rgba(132,165,242,1) 100%);
+    font-weight: bold;
+}
+
+.Pay1:hover{
+    font-weight: bolder;
+    background: #741111 0% 0% no-repeat padding-box;
+    max-width: 126px;
+    height: 38px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+    .Phone{
+display: none;
+    }
+    .Phone1{
+        display: none;    
+    }
+
+.h1{
+    padding-top: 10px;
+    font-size: 40px;
+}
+.p1{
+    padding-top: 0px;
+    font-size: 30px;
+}
+
+.cashify{
+    font-size: 36px;
+}
+.menu{
+font-size: 22px;
+}
+
+.join{
+    font-size: 26px;
+    width: 180px;
+    height: 70px;
+}
+.demo{
+    font-size:26px;
+    width: 180px;
+    height: 70px;
+}
+
+.titles2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.smalltitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+.three1{
+    height: 180px;
+    width: 180px;
+}
+.img1{
+max-height: 40px;
+max-width: 40px;
+}
+.par{
+    font-size: 18px; 
+}
+.par2{
+    font-weight: bold;
+    font-size: 16px; 
+}
+.titl2{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.titl3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prices{
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.chose1{
+    font-size: 20px;
+}
+.chose3{
+    font-size: 18px;
+}
+.chose2{
+    font-size: 18px
+}
+
+.Pay1{
+    max-width: 140px;
+    height: 50px;
+    font-size: 20px;
+}
+.lastbox{
+    padding-top: 14%;
+}
+.formtext{
+    max-width: 500px;
+
+}
+.lastbox{
+    flex-wrap: wrap;
+    height: auto;
+}
+.H7{
+    font-size: 54px;
+    text-align: center;
+}
+.p7{
+    font-size: 22px;
+    text-align: center;
+}
+.p8{
+    font-size: 20px;
+    text-align: center;
+}
+.form10{
+    font-size:20px;
+}
+.form11{
+    font-size: 20px;
+}
+.message{
+    font-size: 18px;
+}
+
+.menuu{
+    gap: 60px;
+    font-size: 16px;
+}
+.cash{
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 769px) and (min-width:320px){
+.menu{
+    gap:0px;
+    flex-direction: column;
+}
+.Phone1{
+    display: none;
+}
+.h1{
+    padding-top: 34px;
+    padding-right: 0px;
+    font-size: 34px;
+}
+.p1{
+    padding-top: 0px;
+}
+.titles2{
+    text-align: center;
+}
+.three{
+    flex-wrap: wrap;
+    margin-top:0px;
+}
+.titl2{
+    text-align: center;
+}
+.prices{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.lastbox{
+    flex-direction: column;
+    height: auto; 
+}
+.form10{
+    width: 240px;
+    height: 40px;
+}
+.form11{
+    width: 240px;
+    height: 110px;
+}
+.message{
+    width: 240px;
+}
+.form{
+    width: 240px;
+    height: 300px;
+    padding: 3%;
+}
+.footerflex{
+    flex-direction: column;
+}
+.menuu{
+    gap: 5px;
+    margin-top: -33px;
+}
+.cash{
+    margin-top: -20px;
+}
+}
